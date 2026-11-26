@@ -17,6 +17,7 @@ language sql stable
 as $$
   select c.id, c.content
   from chunks c
+  -- <=> is the cosine distance
   order by c.embedding <=> query_embedding
   limit match_count;
 $$;
