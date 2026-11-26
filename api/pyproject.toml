@@ -16,6 +16,8 @@ dependencies = [
     "pypdf>=7.1.1",
     "pypdf2>=3.0.1",
     "python-dotenv>=1.2.4",
+    "pytokencalc>=1.5.0",
+    "supabase>=2.34.1",
 ]
 
 [project.scripts]
